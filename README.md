@@ -8,6 +8,23 @@ View Insights: Gain valuable insights into your spending patterns through both p
 Analyze Single Category: Dive deeper into a specific category by exploring its daily expense distribution, visualized with bar charts for enhanced understanding.
 
 How to Use:
-Save the code as expense_tracker.py in your preferred directory.
-Run the script: Open a terminal or command prompt, navigate to the directory where you saved the file, and execute python expense_tracker.py.
-Interact with the menu: The script will display a menu with options like adding expenses, viewing insights, and analyzing categories. Follow the prompts to manage your finances.
+Save the script as expense_tracker.py.
+Run the script from your terminal using python expense_tracker.py.
+The program will display a main menu with options to add expenses, view insights, analyze a single category, or exit.
+Follow the prompts to enter expense details or select desired actions.
+
+Adding Expenses:
+Enter the amount, description, category, and optional date for each expense.
+The date format should be YYYY-MM-DD (e.g., 2024-06-23).
+
+Viewing Insights:
+This option displays the total amount spent and a breakdown of expenses by category.
+Pie and bar charts are also generated to visualize the expense distribution.
+
+Analyzing Single Category:
+Enter the category you want to analyze to see a daily expense breakdown.
+Pie and bar charts will be displayed to show how much was spent on that category each day.
+
+Data Persistence:
+Expense data is saved to a CSV file named expenses.csv after adding a new expense.
+The program reads data from this file on startup to maintain expense history.
